@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 10vw;
+    overflow: hidden;
+}
+.container .five{
+    width: 40%;
+}
+
+.container .five .card{
+    width: 30vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.container .five .card img{
+    width: 40%;
+}
+
+.dots{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}

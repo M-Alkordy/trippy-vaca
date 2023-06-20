@@ -1,0 +1,35 @@
+.popular .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular .container .info {
+    width: 50%;
+}
+.popular .container .info p{
+    margin: 0;
+    width: 80%;
+}
+
+.popular .container .info h2{
+    padding-bottom: 1rem;
+}
+
+.popular .container .images {
+    display: flex;
+    gap: 30px;
+}
+
+.popular .container .images img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px
+}
+
+.popular .container.reverse{
+    flex-direction: row-reverse;
+}

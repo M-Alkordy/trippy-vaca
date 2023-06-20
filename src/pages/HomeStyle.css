@@ -1,0 +1,15 @@
+.home .popular{
+    margin: 4rem 0;
+    color: #2a2a2a;
+}
+
+.home .popular h1{
+    font-size: 3rem ;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.home .popular p{
+    width: max-content;
+    margin: 0 auto;
+}
